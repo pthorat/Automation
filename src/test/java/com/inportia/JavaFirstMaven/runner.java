@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 		features= "src\\test\\java\\cucumbertest",
 		glue="stepdef",
 	
-		tags={"@index"},
+		tags={"@tag"},
 		monochrome=true,
 		dryRun=false
 		)
